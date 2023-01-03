@@ -13,7 +13,15 @@
 
 ## ОТВЕТ
 
+Создание в yandex-cloud через terraform
 
+main.tf
+
+![main tf](https://user-images.githubusercontent.com/109212419/210434234-832f942b-2a5a-451f-99d0-9c3add3de70c.jpg)
+
+terraform apply
+
+![1 задание](https://user-images.githubusercontent.com/109212419/210434281-6621858c-1245-42e6-9f81-5a10aaf651c1.jpg)
 
 
 ## Задача 2. Инициализируем проект и создаем воркспейсы. 
