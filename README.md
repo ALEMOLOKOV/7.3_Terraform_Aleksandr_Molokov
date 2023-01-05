@@ -64,5 +64,7 @@ sudo terraform workspace list
 
 ![terraform plan после создания инстанса](https://user-images.githubusercontent.com/109212419/210761669-3084ec0f-f149-47df-abf8-a0eeb07fc89b.jpg)
 
+# S3.tf после добавлен еще один instance с for_each, а также добавлен параметр create_before_destroy = true в первый instance
+
 
 
