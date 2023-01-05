@@ -66,7 +66,7 @@ sudo terraform workspace list
 
  S3.tf после добавлен еще один instance с for_each, а также добавлен параметр create_before_destroy = true в первый instance
 
-[s3.tf] (https://github.com/ALEMOLOKOV/7.3_Terraform_Aleksandr_Molokov/blob/965e658592a848a835d7c8e1c6c998cf3e5ef2ce/s3.tf)
+[s3.tf](https://github.com/ALEMOLOKOV/7.3_Terraform_Aleksandr_Molokov/blob/965e658592a848a835d7c8e1c6c998cf3e5ef2ce/s3.tf)
 
 # terraform plan (workspace prod)
 
