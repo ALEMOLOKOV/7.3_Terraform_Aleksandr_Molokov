@@ -46,3 +46,11 @@ dynamodb.
 
 ## ОТВЕТ
 
+1. Создайте два воркспейса `stage` и `prod`.
+
+sudo terraform workspace new prod
+sudo terraform workspace new stage
+sudo terraform workspace list
+
+![Задание 2 1 создание workspace](https://user-images.githubusercontent.com/109212419/210753005-7d1958d3-3042-4221-ba07-3e7bb7a8e207.jpg)
+
