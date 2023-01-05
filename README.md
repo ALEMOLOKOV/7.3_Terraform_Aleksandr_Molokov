@@ -46,7 +46,7 @@ dynamodb.
 
 ## ОТВЕТ
 
-# 1. Создайте два воркспейса `stage` и `prod`.
+ # 1. Создайте два воркспейса `stage` и `prod`.
 
 sudo terraform workspace new prod
 sudo terraform workspace new stage
@@ -54,18 +54,26 @@ sudo terraform workspace list
 
 ![Задание 2 1 создание workspace](https://user-images.githubusercontent.com/109212419/210753005-7d1958d3-3042-4221-ba07-3e7bb7a8e207.jpg)
 
-# Добавление зависимостей и count
+ # Добавление зависимостей и count
 
-# S3.tf
+ # S3.tf
 
 ![s3 tf count](https://user-images.githubusercontent.com/109212419/210761465-491843aa-7123-444a-89ea-cf44a503957d.jpg)
 
-# terraform plan (workspace prod)
+ terraform plan (workspace prod)
 
 ![terraform plan после создания инстанса](https://user-images.githubusercontent.com/109212419/210761669-3084ec0f-f149-47df-abf8-a0eeb07fc89b.jpg)
 
-# S3.tf после добавлен еще один instance с for_each, а также добавлен параметр create_before_destroy = true в первый instance
+ S3.tf после добавлен еще один instance с for_each, а также добавлен параметр create_before_destroy = true в первый instance
 
 https://github.com/ALEMOLOKOV/7.3_Terraform_Aleksandr_Molokov/blob/965e658592a848a835d7c8e1c6c998cf3e5ef2ce/s3.tf
+
+# terraform plan (workspace prod)
+
+![2 terraform plan final 1](https://user-images.githubusercontent.com/109212419/210767364-91550b5d-cbf4-456a-ae06-328fd470c0e6.jpg)
+
+![2 terraform plan final 2](https://user-images.githubusercontent.com/109212419/210767407-5ba632ab-3f8f-4492-8290-f60d12a4981b.jpg)
+
+
 
 
